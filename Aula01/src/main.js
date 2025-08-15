@@ -1,6 +1,9 @@
 // Importa o Vue (a ferramenta que usamos para montar o site)
 import { createApp } from 'vue'
 
+// Importa a função createPinia para usar variáveis globais
+import { createPinia } from 'pinia'
+
 // Importa o arquivo principal do site (onde está a estrutura do site)
 import App from './App.vue'
 
